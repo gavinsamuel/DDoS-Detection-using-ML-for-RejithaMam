@@ -23,66 +23,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Custom premium CSS
-st.markdown("""
-<style>
-    .reportview-container {
-        background: #0F172A;
-    }
-    .main .block-container {
-        padding-top: 2rem;
-    }
-    h1, h2, h3 {
-        color: #E2E8F0 !important;
-        font-family: 'Outfit', 'Inter', sans-serif;
-    }
-    .metric-card {
-        background-color: #1E293B;
-        border: 1px solid #334155;
-        border-radius: 12px;
-        padding: 1.5rem;
-        box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
-    }
-    .badge-normal {
-        background-color: #059669;
-        color: white;
-        padding: 4px 12px;
-        border-radius: 9999px;
-        font-weight: bold;
-        font-size: 14px;
-        display: inline-block;
-    }
-    .badge-anomaly {
-        background-color: #DC2626;
-        color: white;
-        padding: 4px 12px;
-        border-radius: 9999px;
-        font-weight: bold;
-        font-size: 14px;
-        display: inline-block;
-    }
-    .stTabs [data-baseweb="tab-list"] {
-        gap: 24px;
-    }
-    .stTabs [data-baseweb="tab"] {
-        height: 50px;
-        white-space: pre-wrap;
-        background-color: #1E293B;
-        border-radius: 8px 8px 0px 0px;
-        color: #94A3B8;
-        font-size: 16px;
-        font-weight: 600;
-        border: 1px solid #334155;
-        padding: 0px 20px;
-    }
-    .stTabs [aria-selected="true"] {
-        background-color: #3B82F6 !important;
-        color: white !important;
-        border: 1px solid #3B82F6 !important;
-    }
-</style>
-""", unsafe_allow_html=True)
-
+# Custom premium CSS removed for compatibility
 # Helper function to load all trained models and pipelines
 @st.cache_resource
 def load_resources():
