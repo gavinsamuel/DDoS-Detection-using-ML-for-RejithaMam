@@ -1,0 +1,98 @@
+{
+    "Random Forest": {
+        "Accuracy": 0.7676543647977289,
+        "Precision": 0.9679605668515096,
+        "Recall": 0.6120938206187174,
+        "F1-Score": 0.7499522627458468,
+        "Training Time (s)": 2.999319076538086,
+        "Inference Latency (ms/sample)": 0.001947652625225384
+    },
+    "XGBoost": {
+        "Accuracy": 0.7868168914123492,
+        "Precision": 0.9679375072869302,
+        "Recall": 0.6469258941790695,
+        "F1-Score": 0.7755254553946754,
+        "Training Time (s)": 0.8806412220001221,
+        "Inference Latency (ms/sample)": 0.0008252747436209381
+    },
+    "Linear SVM": {
+        "Accuracy": 0.7482256919801278,
+        "Precision": 0.915091056721958,
+        "Recall": 0.614743240084158,
+        "F1-Score": 0.7354339517106367,
+        "Training Time (s)": 0.7673079967498779,
+        "Inference Latency (ms/sample)": 0.000101579597776371
+    },
+    "Decision Tree": {
+        "Accuracy": 0.7854418026969482,
+        "Precision": 0.9647756335735875,
+        "Recall": 0.6466921218732954,
+        "F1-Score": 0.7743410310240261,
+        "Training Time (s)": 1.3924710750579834,
+        "Inference Latency (ms/sample)": 0.0001678469335042982
+    },
+    "KNN": {
+        "Accuracy": 0.7802519517388219,
+        "Precision": 0.9679296828601972,
+        "Recall": 0.6350035065845866,
+        "F1-Score": 0.7668925277620929,
+        "Training Time (s)": 0.0059282779693603516,
+        "Inference Latency (ms/sample)": 0.20298207373040378
+    },
+    "Naive Bayes": {
+        "Accuracy": 0.5664034776437189,
+        "Precision": 0.9781113195747342,
+        "Recall": 0.2437465908205408,
+        "F1-Score": 0.3902439024390244,
+        "Training Time (s)": 0.12623214721679688,
+        "Inference Latency (ms/sample)": 0.0007905864478680494
+    },
+    "Logistic Regression": {
+        "Accuracy": 0.7536816891412349,
+        "Precision": 0.9174311926605505,
+        "Recall": 0.6233928153978026,
+        "F1-Score": 0.7423560525216907,
+        "Training Time (s)": 4.90234112739563,
+        "Inference Latency (ms/sample)": 0.0008155133725904759
+    },
+    "LightGBM": {
+        "Accuracy": 0.7888129879347054,
+        "Precision": 0.9689751336277016,
+        "Recall": 0.6498090859502844,
+        "F1-Score": 0.7779280750034983,
+        "Training Time (s)": 0.9151649475097656,
+        "Inference Latency (ms/sample)": 0.0028303322680373827
+    },
+    "MLP Network": {
+        "Accuracy": 0.7851312987934705,
+        "Precision": 0.9688930625660289,
+        "Recall": 0.6431855372866828,
+        "F1-Score": 0.7731360059947546,
+        "Training Time (s)": 32.85270071029663,
+        "Inference Latency (ms/sample)": 0.011913906690328149
+    },
+    "Autoencoder": {
+        "Accuracy": 0.7903211497515968,
+        "Precision": 0.9659691883191538,
+        "Recall": 0.6547183043715421,
+        "F1-Score": 0.7804560865728485,
+        "Training Time (s)": 19.912898063659668,
+        "Inference Latency (ms/sample)": 0.0010346947535290797
+    },
+    "LSTM": {
+        "Accuracy": 0.7691625266146203,
+        "Precision": 0.9470291808273761,
+        "Recall": 0.6297046676537053,
+        "F1-Score": 0.7564354582046242,
+        "Training Time (s)": 35.001797914505005,
+        "Inference Latency (ms/sample)": 0.010906930846301607
+    },
+    "CNN1D": {
+        "Accuracy": 0.7771025550035486,
+        "Precision": 0.9227853584578731,
+        "Recall": 0.6639912725005844,
+        "F1-Score": 0.772284406579961,
+        "Training Time (s)": 55.226831912994385,
+        "Inference Latency (ms/sample)": 0.011303128292579191
+    }
+}
